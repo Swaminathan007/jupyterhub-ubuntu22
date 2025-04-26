@@ -622,6 +622,7 @@ c.Spawner.cmd = ['jupyter-labhub']
 #  Admin access should be treated the same way root access is.
 #  
 #  Defaults to an empty set, in which case no user has admin access.
+c.Authenticator.allow_all = True
 c.Authenticator.admin_users = {'admin'}
 
 ## Automatically begin the login process
