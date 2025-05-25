@@ -53,7 +53,7 @@ RUN mkdir -p /etc/jupyterhub/ssl && \
 
 # Add config and user creation script
 COPY jupyterhub_config.py /app/analysis/jupyterhub_config.py
-COPY create-user.py /app/analysis/create-user.py
+COPY create-user.py /app/analysis/create-new-user.py
 
 # Expose JupyterHub HTTPS port
 EXPOSE 8000
