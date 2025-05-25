@@ -36,7 +36,7 @@ RUN pip3 install --upgrade pip
 
 RUN python3 -m pip install jupyterhub
 RUN npm install -g configurable-http-proxy
-RUN python3 -m pip install jupyterlab notebook tensorflow
+RUN python3 -m pip install jupyterlab notebook tensorflow pandas scikit-learn numpy polars torch
 
 # Install JupyterHub configurable HTTP proxy
 RUN npm install -g configurable-http-proxy
